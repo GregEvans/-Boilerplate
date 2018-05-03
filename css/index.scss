@@ -1,0 +1,75 @@
+
+@import "normalize";
+
+@font-face {
+  font-family: '****';
+  src: url('**==**') format('woff2'),
+       url('**==**') format('woff'),
+       url('**==**')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+ // border: 1px solid #000;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  font-size: 10px;
+}
+
+body {
+  background: #eeeeee;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  width: 100%;
+  height: 100%;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 2.2rem;
+  font-weight: bold;
+  color: #000;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: 100;
+  color: #000;
+  padding-bottom: 3rem;
+}
+h3 {
+  font-size: .8rem;
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+}
+p {
+  font-size: .8rem;
+  line-height: 1.2rem;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 999px) {
+
+}
+@media screen and (max-width: 500px) {
+
+}
+@media screen and (max-width: 370px) {
+
+}
+
+
+
